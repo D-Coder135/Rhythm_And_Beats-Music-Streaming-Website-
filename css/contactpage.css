@@ -3,16 +3,20 @@
     margin: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 #container{
-    background-image: url(../images/backgroundForContactPage.jpg);
-    background-size: cover;
     height: 100vh;
     width: 100vw;
-    background-attachment: fixed;
 }
 
 header{
-    height: 50vh;
+    background-image: url(../images/backgroundForContactPage.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
     width: 100vw;
 }
 
@@ -71,27 +75,134 @@ nav ul li a:hover{
     padding: 10px;
 }
 
+#header-para{
+    font-size: 1.2rem;
+    color: white;
+    height: 50px;
+    width: auto;
+    border: 2px solid lightgray;
+    padding: 20px 50px;
+    margin: -50px 20px 0px 20px;
+    border-radius: 10px;
+}
+
 /* First-Section */
 
-main{
-    margin-top: 300px;
+#section-1{
     height: auto;
+    width: 100vw;
+    text-align: center;
+    color: #888888;
+    background-color: #EEEBDD;
+    opacity: 0.7;
+    
+}
+
+#section-1-leftdiv{
+    height: 500px;
+    width: 50vw;
+    display: inline-block;
+}
+
+#section-1-leftdiv h1{
+    font-size: 2.5rem;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 150px;
+}
+
+#section-1-leftdiv button{
+    margin-top: 50px;
+    height: 40px;
+    width: 200px;
+    background-color: gray;
+    border-radius: 10px;
+    
+}
+
+#section-1-leftdiv button a{
+    text-decoration: none;
+    color: honeydew;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: all 1s ease-in-out ;    
+}
+
+#section-1-leftdiv button:hover{
+    color: white;
+    transition: all 0.8s ease-in-out;
+    background-color: darkslateblue;
+}
+
+#section-1-rightdiv{
+    height: 500px;
+    width: 50vw;
+    float: right;
+}
+
+#section-1-rightdiv img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* Seprator div */
+
+#h1-div p{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 1.8rem;
+    font-family: cursive;
+    font-weight: 700;
+}
+
+/* Section-2 started */
+
+#Learn-More{
+    height: auto;
+    width: 100vw;
     background-color: black;
 }
 
-section{
-    height: 50vh;
+#section-2-leftdiv{
+    height: auto;
+    width: 50vw;
+    display: inline-block;
+}
+
+#section-2-leftdiv img{
+    height: 100%;
+    width: 50vw;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#section-2-rightdiv{
+    color: white;
+    height: auto;
+    width: 50vw;
+    float: right;
+}
+
+/* Footer Started */
+
+footer{
+    background-image:url(../images/footer-image.jpg);
+    color: white;
+    margin-top: 70px;
+    height: 400px;
     width: 100vw;
 }
 
-section{
-    margin-top: 100px;
+footer div{
+    padding-top: 150px;
+    font-size: 1.8rem;
+    font-family: monospace;
+    margin-left: 100px;
 }
 
-#first-section{
-    display: inline-block;
-    color: white;
-    font-family: 'Dancing Script', cursive;
-    word-spacing: 0.8rem;
+footer hr{
+    width: 80vw;
+    margin-left: 100px;
+    margin-top: 50px;
 }
-
