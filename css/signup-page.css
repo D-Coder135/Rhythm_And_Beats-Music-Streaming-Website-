@@ -62,7 +62,7 @@ main{
 }
 
 #signup-heading{
-    margin-left: 100px;
+    margin-left: 125px;
     margin-top: 20px;
 }
 
@@ -81,10 +81,15 @@ main{
     display: inline-block;
 }
 
+.form-classes input{
+    height: 23x;
+    padding-right: 5px;
+}
+
 button{
     margin-top: 40px;
     margin-left: 40px;
-    height: 7%;
+    height: 40px;
     width: 80%;
     border-radius: 10px;
     opacity: 0.7;
