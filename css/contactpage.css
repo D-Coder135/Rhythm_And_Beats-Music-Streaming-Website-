@@ -211,6 +211,31 @@ nav ul li a:hover{
     margin-bottom: 10px;
 }
 
+#section-2-rightdiv button{
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 40px;
+    width: 200px;
+    background-color: lightpink;
+}
+
+#section-2-rightdiv button:hover{
+    background-color: hotpink;
+    color: white;
+}
+
+
+#section-2-rightdiv button a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;  
+}
+
+#section-2-rightdiv button a:hover{
+    text-decoration: none;
+    font-size: 1rem;
+}
+
 /* Footer Started */
 
 footer{
