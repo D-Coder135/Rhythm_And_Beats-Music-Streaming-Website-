@@ -180,8 +180,35 @@ nav ul li a:hover{
 #section-2-rightdiv{
     color: white;
     height: auto;
-    width: 50vw;
+    width: 45vw;
     float: right;
+    margin-top: 65px;
+}
+
+
+#section-2-firstdiv{
+    height: 20%;
+    width: 80%;
+    line-height: 1.8rem;
+    word-spacing: 10px;
+}
+
+.icon-div{
+    height: auto;
+    width: auto;
+    font-size: 2rem;
+    display: inline-block;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.content-div {
+    height: auto;
+    width: 90%;
+    color: lightgray;
+    font-size: 1.4rem;
+    display: inline-block;
+    margin-bottom: 10px;
 }
 
 /* Footer Started */
@@ -196,7 +223,7 @@ footer{
 
 .footer-div{
     padding-top: 80px;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     font-family: monospace;
     margin-left: 100px;
     color: gray;
@@ -206,19 +233,18 @@ footer{
     border: 1px solid white;
     border-radius: 5px;
     padding: 10px;
-    transition: all 1s ease;
-}
-
-footer div a{
-    text-decoration: none;
-}
-
-footer div a:hover{
     color: aqua;
+    font-size: 1.8rem;
+    transition: all 0.8s ease;
+    text-decoration: none;
 }
 
 footer hr{
     width: 80vw;
     margin-left: 100px;
     margin-top: 50px;
+}
+
+#help-div i{
+    background-color: white;
 }
