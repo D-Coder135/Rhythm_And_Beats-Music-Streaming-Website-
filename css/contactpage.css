@@ -172,7 +172,7 @@ nav ul li a:hover{
 
 #section-2-leftdiv img{
     height: 100%;
-    width: 50vw;
+    width: 100%;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
@@ -194,11 +194,27 @@ footer{
     width: 100vw;
 }
 
-footer div{
-    padding-top: 150px;
+.footer-div{
+    padding-top: 80px;
     font-size: 1.8rem;
     font-family: monospace;
     margin-left: 100px;
+    color: gray;
+}
+
+.footer-div a:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    transition: all 1s ease;
+}
+
+footer div a{
+    text-decoration: none;
+}
+
+footer div a:hover{
+    color: aqua;
 }
 
 footer hr{
