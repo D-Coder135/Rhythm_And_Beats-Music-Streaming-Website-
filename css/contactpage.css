@@ -1,275 +1,283 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-#container{
-    height: 100vh;
-    width: 100vw;
+#container {
+  height: 100vh;
+  width: 100vw;
 }
 
-header{
-    background-image: url(../images/backgroundForContactPage.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    height: 90vh;
-    width: 100vw;
+header {
+  background-image: url(../images/backgroundForContactPage.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 90vh;
+  width: 100vw;
 }
 
-table{
-    display: inline-block;
-    margin-top: -20vh;
-    margin-left: -10vw;
+table {
+  display: inline-block;
+  margin-top: -20vh;
+  margin-left: -10vw;
 }
 
-#logo-div img{
-    height: 500px;
-    width: 500px;
-    border-radius: 30%;
+#logo-div img {
+  height: 500px;
+  width: 500px;
+  border-radius: 30%;
 }
 
-#logo-div img:hover{
-    transition: transform 1s;
+#logo-div img:hover {
+  transition: transform 1s;
   transform: rotate(180deg);
 }
 
-td h1{
-    margin-left: -150px;
-    font-family: 'Dancing Script', cursive;
-    color: #66bfbf;
+td h1 {
+  margin-left: -150px;
+  font-family: "Dancing Script", cursive;
+  color: #66bfbf;
 }
 
-
-nav{
-    position: sticky;
-    margin-top: 20px;
-    margin-right: 40px;
-    height: 100px;
-    width: 200px;
-    float: right;
+nav {
+  position: sticky;
+  margin-top: 20px;
+  margin-right: 40px;
+  height: 100px;
+  width: 200px;
+  float: right;
 }
 
-nav ul li{
-    display: inline-block;
-    margin-top: 20px;
-    text-decoration: none;
+nav ul li {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
 }
 
-nav ul li a{
-    padding: 5px;
-    text-decoration: none;
-    border: 2px solid white;
-    border-radius: 5px;
-    color: white;
-    animation-timing-function: ease;
-    animation-duration: 2s;
+nav ul li a {
+  padding: 5px;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  animation-timing-function: ease;
+  animation-duration: 2s;
 }
 
-nav ul li a:hover{
-    border: 2px dotted grey;
-    color: black;
-    padding: 10px;
+nav ul li a:hover {
+  border: 2px dotted grey;
+  color: black;
+  padding: 10px;
 }
 
-#header-para{
-    font-size: 1.2rem;
-    color: white;
-    height: 50px;
-    width: auto;
-    border: 2px solid lightgray;
-    padding: 20px 50px;
-    margin: -50px 20px 0px 20px;
-    border-radius: 10px;
+#header-para {
+  font-size: 1.2rem;
+  color: white;
+  height: 50px;
+  width: auto;
+  border: 2px solid lightgray;
+  padding: 20px 50px;
+  margin: -50px 20px 0px 20px;
+  border-radius: 10px;
 }
 
 /* First-Section */
 
-#section-1{
-    height: auto;
-    width: 100vw;
-    text-align: center;
-    color: #888888;
-    background-color: #EEEBDD;
-    opacity: 0.7;
-    
+#section-1 {
+  height: auto;
+  width: 100vw;
+  text-align: center;
+  color: #888888;
+  background-color: #eeebdd;
+  opacity: 0.7;
 }
 
-#section-1-leftdiv{
-    height: 500px;
-    width: 50vw;
-    display: inline-block;
+#section-1-leftdiv {
+  height: 500px;
+  width: 50vw;
+  display: inline-block;
 }
 
-#section-1-leftdiv h1{
-    font-size: 2.5rem;
-    font-family: 'Dancing Script', cursive;
-    margin-top: 150px;
+#section-1-leftdiv h1 {
+  font-size: 2.5rem;
+  font-family: "Dancing Script", cursive;
+  margin-top: 150px;
 }
 
-#section-1-leftdiv button{
-    margin-top: 50px;
-    height: 40px;
-    width: 200px;
-    background-color: gray;
-    border-radius: 10px;
-    
+#section-1-leftdiv button {
+  margin-top: 50px;
+  height: 40px;
+  width: 200px;
+  background-color: gray;
+  border-radius: 10px;
 }
 
-#section-1-leftdiv button a{
-    text-decoration: none;
-    color: honeydew;
-    font-size: 1rem;
-    font-weight: bold;
-    transition: all 1s ease-in-out ;    
+#section-1-leftdiv button a {
+  text-decoration: none;
+  color: honeydew;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: all 1s ease-in-out;
 }
 
-#section-1-leftdiv button:hover{
-    color: white;
-    transition: all 0.8s ease-in-out;
-    background-color: darkslateblue;
+#section-1-leftdiv button:hover {
+  color: white;
+  transition: all 0.8s ease-in-out;
+  background-color: darkslateblue;
 }
 
-#section-1-rightdiv{
-    height: 500px;
-    width: 50vw;
-    float: right;
+#section-1-rightdiv {
+  height: 500px;
+  width: 50vw;
+  float: right;
 }
 
-#section-1-rightdiv img{
-    height: 100%;
-    width: 100%;
-    border-radius: 20px;
+#section-1-rightdiv img {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
 }
 
 /* Seprator div */
 
-#h1-div p{
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-size: 1.8rem;
-    font-family: cursive;
-    font-weight: 700;
+#h1-div p {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 1.8rem;
+  font-family: cursive;
+  font-weight: 700;
 }
 
 /* Section-2 started */
 
-#Learn-More{
-    height: auto;
-    width: 100vw;
-    background-color: black;
+#Learn-More {
+  height: auto;
+  width: 100vw;
+  background-color: black;
 }
 
-#section-2-leftdiv{
-    height: auto;
-    width: 50vw;
-    display: inline-block;
+#section-2-leftdiv {
+  height: auto;
+  width: 50vw;
+  display: inline-block;
 }
 
-#section-2-leftdiv img{
-    height: 100%;
-    width: 100%;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+#section-2-leftdiv img {
+  height: 100%;
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
-#section-2-rightdiv{
-    color: white;
-    height: auto;
-    width: 45vw;
-    float: right;
-    margin-top: 65px;
+#section-2-rightdiv {
+  color: white;
+  height: auto;
+  width: 45vw;
+  float: right;
+  margin-top: 65px;
 }
 
-
-#section-2-firstdiv{
-    height: 20%;
-    width: 80%;
-    line-height: 1.8rem;
-    word-spacing: 10px;
+#section-2-firstdiv {
+  height: 20%;
+  width: 80%;
+  line-height: 1.8rem;
+  word-spacing: 10px;
 }
 
-.icon-div{
-    height: auto;
-    width: auto;
-    font-size: 2rem;
-    display: inline-block;
-    padding-right: 10px;
-    padding-bottom: 10px;
+.icon-div {
+  height: auto;
+  width: auto;
+  font-size: 2rem;
+  display: inline-block;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 
 .content-div {
-    height: auto;
-    width: 90%;
-    color: lightgray;
-    font-size: 1.4rem;
-    display: inline-block;
-    margin-bottom: 10px;
+  height: auto;
+  width: 90%;
+  color: lightgray;
+  font-size: 1.4rem;
+  display: inline-block;
+  margin-bottom: 10px;
 }
 
-#section-2-rightdiv button{
-    margin-top: 20px;
-    border-radius: 10px;
-    height: 40px;
-    width: 200px;
-    background-color: lightpink;
+#section-2-rightdiv button {
+  margin-top: 20px;
+  border-radius: 10px;
+  height: 40px;
+  width: 200px;
+  background-color: lightpink;
 }
 
-#section-2-rightdiv button:hover{
-    background-color: hotpink;
-    color: white;
+#section-2-rightdiv button:hover {
+  background-color: hotpink;
+  color: white;
 }
 
-
-#section-2-rightdiv button a{
-    text-decoration: none;
-    font-size: 1rem;
-    color: black;  
+#section-2-rightdiv button a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: black;
 }
 
-#section-2-rightdiv button a:hover{
-    text-decoration: none;
-    font-size: 1rem;
+#section-2-rightdiv button a:hover {
+  text-decoration: none;
+  font-size: 1rem;
 }
 
 /* Footer Started */
 
-footer{
-    background-image:url(../images/footer-image.jpg);
-    color: white;
-    margin-top: 70px;
-    height: 400px;
-    width: 100vw;
+footer {
+  background-image: url(../images/footer-image.jpg);
+  color: white;
+  margin-top: 70px;
+  height: 400px;
+  width: 100vw;
 }
 
-.footer-div{
-    padding-top: 80px;
-    font-size: 1.4rem;
-    font-family: monospace;
-    margin-left: 100px;
-    color: gray;
+.footer-div {
+  padding-top: 80px;
+  font-size: 1.4rem;
+  font-family: monospace;
+  margin-left: 100px;
+  color: gray;
 }
 
-.footer-div a:hover{
-    border: 1px solid white;
-    border-radius: 5px;
-    padding: 10px;
-    color: aqua;
-    font-size: 1.8rem;
-    transition: all 0.8s ease;
-    text-decoration: none;
+.footer-div a:hover {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  color: aqua;
+  font-size: 1.8rem;
+  transition: all 0.8s ease;
+  text-decoration: none;
 }
 
-footer hr{
-    width: 80vw;
-    margin-left: 100px;
-    margin-top: 50px;
+footer hr {
+  width: 80vw;
+  margin-left: 100px;
+  margin-top: 50px;
 }
 
-#help-div i{
-    background-color: white;
+#help-div i {
+  background-color: white;
 }
+
+@media only screen and (min-width: 100px) {
+  #header-para {
+    border: 2px solid lightgray;
+    padding: 70px 60px;
+  }
+}
+/* @media only screen and (min-width: 600px) {
+  #header-para {
+    border: 2px solid lightgray;
+    padding: 100px 80px;
+  }
+} */
