@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Varela+Round&display=swap");
+
+body {
+  background-image: url("../images/crowd-1056764_1280.jpg")
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  font-family: "Ubuntu";
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  height: 50px;
+  background-color: rgb(29, 37, 41);
+  color: white;
+  align-items: center;
+  opacity: 0.8;
+}
+
+nav ul li {
+  padding: 0 12px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav li a:hover{
+    color: #66bfbf;
+    padding: 8px;
+    transition: padding 0.8s ease-in;
+    border-radius: 5px;
+    border: 2px solid #66bfbf;
+}
+
+.brand img {
+  width: 30px;
+  border-radius: px;
+  padding: 0 8px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.container {
+  height: 72vh;
+  background-color: transparent;
+  font-family: "Varela Round", sans-serif;
+  color: aliceblue;
+  display: flex;
+  margin: 15px auto;
+  width: 70%;
+  background-image: url("../images/1.jpg");
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.container:hover{
+    transition: opacity 1s ease-in;
+    opacity: 0.9;
+}
+
+
+.bottom {
+  position: sticky;
+  height: 90px;
+  opacity: 0.6;
+  background-color: black;
+  color: white;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom:hover{
+    transition: opacity 0.8s ease-in;
+    opacity: 1;
+}
+
+.icons {
+  margin-top: 14px;
+  font-size: 0.8rem;
+}
+
+.icons i {
+  cursor: pointer;
+}
+
+#myProgressBar {
+  width: 80vw;
+}
+
+.songItem {
+  height: 40px;
+  display: flex;
+  background-color: transparent;
+  opacity: 0.8;
+  color: white;
+  margin: 10px 0;
+  padding: 2px;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.songItem:hover {
+  border: 1px solid #66bfbf;
+  opacity: 1;
+  border-radius: 20px;
+  transition: all 0.6s ease-in;
+  padding: 15px;
+}
+
+.songItem img {
+  width: 40px;
+  margin: 0 10px 0 0;
+  border-radius: 5px;
+}
+
+.timestamp {
+  margin: 0px 20px;
+}
+
+.timestamp i {
+  cursor: pointer;
+}
+
+.songItemContainer {
+  margin-top: 10px;
+}
+
+.songInfo {
+  position: absolute;
+  left: 10vw;
+}
+
+.songInfo img {
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}

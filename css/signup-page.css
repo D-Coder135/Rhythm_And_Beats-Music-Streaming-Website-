@@ -1,97 +1,95 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
 /* Cotainer-div */
-#container{
-    width: 100vw;
-    height: 100vh;
-    background-image: url(../images/marcela-laskoski-YrtFlrLo2DQ-unsplash.jpg);
-    background-position: center;
-    background-size: cover;
-    opacity: 0.9;
+#container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/marcela-laskoski-YrtFlrLo2DQ-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  opacity: 0.9;
 }
 
 /* Header-Started */
 
 /* Nav-Bar */
 
-nav{
-    float: right;
-    margin-right: 50px;
-    margin-top: 50px;
+nav {
+  float: right;
+  margin-right: 50px;
+  margin-top: 50px;
 }
 
-nav li{
-    display: inline-block;
-    margin-left: 10px;
-
+nav li {
+  display: inline-block;
+  margin-left: 10px;
 }
 
-nav li a{
-    color: white;
-    text-decoration: none;
-    padding: 5px;
-    border-radius: 4px;
-    border: 2px solid white;
+nav li a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 4px;
+  border: 2px solid white;
 }
 
-nav li a:hover{
-    color: #66bfbf;
-    transition-duration: 1s;
-    transition-timing-function: ease;
-    padding: 10px;
+nav li a:hover {
+  color: #66bfbf;
+  transition-duration: 1s;
+  transition-timing-function: ease;
+  padding: 10px;
 }
 
 /* Main-div-Started */
-main{
-    color: white;
+main {
+  color: white;
 }
 
 /* Form Content */
 
-#form-content{
-    height:  90vh;
-    width: 30vw;
-    border-radius: 10px;
-    border: 2px solid white;
-    margin: auto;
-    position: relative;
-    top: 50px;
+#form-content {
+  height: 90vh;
+  width: 30vw;
+  border-radius: 10px;
+  border: 2px solid white;
+  margin: auto;
+  position: relative;
+  top: 50px;
 }
 
-#signup-heading{
-    margin-left: 125px;
-    margin-top: 20px;
+#signup-heading {
+  margin-left: 125px;
+  margin-top: 20px;
 }
 
-.form-classes{
-    font-size: 1.2rem;
-    margin-top: 40px;
-    margin-left: 50px;
+.form-classes {
+  font-size: 1.2rem;
+  margin-top: 40px;
+  margin-left: 50px;
 }
 
-.form-classes #checkbox{
-    margin-left: 50px;
+.form-classes #checkbox {
+  margin-left: 50px;
 }
 
-.form-classes p{
-    
-    display: inline-block;
+.form-classes p {
+  display: inline-block;
 }
 
-.form-classes input{
-    height: 23x;
-    padding-right: 5px;
+.form-classes input {
+  height: 23x;
+  padding-right: 5px;
 }
 
-button{
-    margin-top: 40px;
-    margin-left: 40px;
-    height: 40px;
-    width: 80%;
-    border-radius: 10px;
-    opacity: 0.7;
-    background-color: violet;
+button {
+  margin-top: 40px;
+  margin-left: 40px;
+  height: 40px;
+  width: 80%;
+  border-radius: 10px;
+  opacity: 0.7;
+  background-color: violet;
 }
