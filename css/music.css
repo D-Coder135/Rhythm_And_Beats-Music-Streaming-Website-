@@ -35,10 +35,10 @@ nav li a{
 
 nav li a:hover{
     color: #66bfbf;
-    padding: 8px;
+    padding: 10px;
     transition: padding 0.8s ease-in;
     border-radius: 5px;
-    border: 2px solid #66bfbf;
+    border: 1px solid #66bfbf;
 }
 
 .brand img {
