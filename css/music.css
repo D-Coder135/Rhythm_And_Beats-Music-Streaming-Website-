@@ -158,3 +158,30 @@ nav li a:hover {
   margin: 10px 10px auto;
   transition: opacity 0.3s ease-in;
 }
+
+@media only screen and (max-width: 1000px) {
+
+  .icons{
+    margin: 20px 100px auto auto;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  
+  .icons{
+    margin: 20px 10px auto auto;
+
+  }
+
+  #myProgressBar{
+    margin: 3px;
+  }
+
+  #masterSongName{
+    margin-left: -100px;
+  }
+
+  #gif{
+    visibility:hidden;
+  }
+}

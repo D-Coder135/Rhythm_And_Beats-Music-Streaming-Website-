@@ -34,7 +34,7 @@ body {
   margin: 4rem;
 }
 
-.artist1 img {
+#artist1 img {
   height: 200px;
   width: 200px;
   margin-right: 5rem;
