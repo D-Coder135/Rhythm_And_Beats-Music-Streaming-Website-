@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Varela+Round&display=swap");
 
 body {
-  background-image: url("../images/crowd-1056764_1280.jpg")
+  background-image: url("../images/crowd-1056764_1280.jpg");
 }
 
 * {
@@ -28,17 +28,17 @@ nav ul li {
   padding: 0 12px;
 }
 
-nav li a{
-    text-decoration: none;
-    color: white;
+nav li a {
+  text-decoration: none;
+  color: white;
 }
 
-nav li a:hover{
-    color: #66bfbf;
-    padding: 10px;
-    transition: padding 0.8s ease-in;
-    border-radius: 5px;
-    border: 1px solid #66bfbf;
+nav li a:hover {
+  color: #66bfbf;
+  padding: 10px;
+  transition: padding 0.8s ease-in;
+  border-radius: 5px;
+  border: 1px solid #66bfbf;
 }
 
 .brand img {
@@ -65,21 +65,20 @@ nav li a:hover{
   background-image: url("../images/1.jpg");
   background-position: center;
   background-size: cover;
-  opacity: 0.5;
+  opacity: 0.7;
   border-radius: 12px;
   padding: 20px;
 }
 
-.container:hover{
-    transition: opacity 1s ease-in;
-    opacity: 0.9;
+.container:hover {
+  transition: opacity 0.5s ease-in;
+  opacity: 0.9;
 }
-
 
 .bottom {
   position: sticky;
   height: 90px;
-  opacity: 0.6;
+  opacity: 0.7;
   background-color: black;
   color: white;
   bottom: 0;
@@ -89,9 +88,9 @@ nav li a:hover{
   align-items: center;
 }
 
-.bottom:hover{
-    transition: opacity 0.8s ease-in;
-    opacity: 1;
+.bottom:hover {
+  transition: opacity 0.8s ease-in;
+  opacity: 1;
 }
 
 .icons {
@@ -105,6 +104,7 @@ nav li a:hover{
 
 #myProgressBar {
   width: 80vw;
+  cursor: pointer;
 }
 
 .songItem {
@@ -146,11 +146,15 @@ nav li a:hover{
 }
 
 .songInfo {
+  font-family: "Varela Round", sans-serif;
   position: absolute;
   left: 10vw;
 }
 
 .songInfo img {
   opacity: 0;
-  transition: opacity 1s ease-in;
+  height: 20px;
+  width: 50px;
+  margin: 10px 10px auto;
+  transition: opacity 0.3s ease-in;
 }

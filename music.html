@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script
+      src="https://kit.fontawesome.com/4d4fc7bb8f.js"
+      crossorigin="anonymous"
+    ></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
-      data-auto-replace-svg="nest"
-    ></script>
-    <link rel="stylesheet" href="css/music.css" />
     <title>Beats and Rythm - Feel your favourite music here</title>
+    <link
+      rel="stylesheet"
+      href="//use.fontawesome.com/releases/v5.0.7/css/all.css"
+    />
+    <link rel="stylesheet" href="css/music.css" />
   </head>
   <body>
     <nav>
@@ -28,75 +32,91 @@
         <h1>Best of 2021</h1>
         <div class="songItemContainer">
           <div class="songItem">
-            <img src="images/1.jpg" alt="1" />
-            <span>Let me love you</span>
+            <img alt="1" />
+            <span class="songName">Let me love you</span>
             <span class="songListPlay"
               ><span class="timestamp"
                 >05:34
-                <span> <i class="far fa-play-circle"></i></span> </span
+                <span>
+                  <i class="far songItemPlay fa-play-circle"></i
+                ></span> </span
             ></span>
           </div>
           <div class="songItem">
-            <img src="images/2.jpg" alt="1" />
-            <span>Let me love you</span>
+            <img alt="1" />
+            <span class="songName">Let me love you</span>
             <span class="songListPlay"
               ><span class="timestamp"
                 >05:34
-                <span> <i class="far fa-play-circle"></i></span> </span
+                <span>
+                  <i class="far songItemPlay fa-play-circle"></i
+                ></span> </span
             ></span>
           </div>
           <div class="songItem">
-            <img src="images/3.jpg" alt="1" />
-            <span>Let me love you</span>
+            <img alt="1" />
+            <span class="songName">Let me love you</span>
             <span class="songListPlay"
               ><span class="timestamp"
                 >05:34
-                <span> <i class="far fa-play-circle"></i></span> </span
+                <span>
+                  <i class="far songItemPlay fa-play-circle"></i
+                ></span> </span
             ></span>
           </div>
           <div class="songItem">
-            <img src="images/4.jpg" alt="1" />
-            <span>Let me love you</span>
+            <img alt="1" />
+            <span class="songName">Let me love you</span>
             <span class="songListPlay"
               ><span class="timestamp"
                 >05:34
-                <span> <i class="far fa-play-circle"></i></span> </span
+                <span>
+                  <i class="far songItemPlay fa-play-circle"></i
+                ></span> </span
             ></span>
           </div>
           <div class="songItem">
-            <img src="images/5.jpg" alt="1" />
-            <span>Let me love you</span>
+            <img alt="1" />
+            <span class="songName">Let me love you</span>
             <span class="songListPlay"
               ><span class="timestamp"
                 >05:34
-                <span> <i class="far fa-play-circle"></i></span> </span
+                <span>
+                  <i class="far songItemPlay fa-play-circle"></i
+                ></span> </span
             ></span>
           </div>
           <div class="songItem">
-            <img src="images/6.jpg" alt="1" />
-            <span>Let me love you</span>
+            <img alt="1" />
+            <span class="songName">Let me love you</span>
             <span class="songListPlay"
               ><span class="timestamp"
                 >05:34
-                <span> <i class="far fa-play-circle"></i></span> </span
+                <span>
+                  <i class="far songItemPlay fa-play-circle"></i
+                ></span> </span
             ></span>
           </div>
           <div class="songItem">
-            <img src="images/7.jpg" alt="1" />
-            <span>Let me love you</span>
+            <img alt="1" />
+            <span class="songName">Let me love you</span>
             <span class="songListPlay"
               ><span class="timestamp"
                 >05:34
-                <span> <i class="far fa-play-circle"></i></span> </span
+                <span>
+                  <i class="far songItemPlay fa-play-circle"></i
+                ></span> </span
             ></span>
           </div>
           <div class="songItem">
-            <img src="images/8.jpg" alt="1" />
-            <span>Let me love you</span>
+            <img alt="1" />
+            <span class="songName">Let me love you</span>
             <span class="songListPlay"
               ><span class="timestamp"
                 >05:34
-                <span> <i class="far fa-play-circle"></i></span> </span
+                <span>
+                  <i class="far songItemPlay fa-play-circle"></i
+                ></span> </span
             ></span>
           </div>
         </div>
@@ -105,19 +125,25 @@
     </div>
 
     <div class="bottom">
-      <input type="range" name="range" id="myProgressBar" min="0" max="100" />
+      <input
+        type="range"
+        name="range"
+        id="myProgressBar"
+        min="0"
+        value="0"
+        max="100"
+      />
       <div class="icons">
         <!-- fontawesome icons -->
         <i class="fas fa-3x fa-step-backward"></i>
-        <i class="far fa-3x fa-play-circle"></i>
+        <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
         <i class="fas fa-3x fa-step-forward"></i>
       </div>
       <div class="songInfo">
-        <img src="images/sound-wave.gif" width="30px" alt="sound-wave" />Let me
-        love you - Justin Beiber
+        <img src="images/sound-wave.gif" alt="sound-wave" id="gif" />Let me love
+        you - Justin Beiber
       </div>
     </div>
-
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
