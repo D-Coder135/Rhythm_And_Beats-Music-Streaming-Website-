@@ -19,6 +19,16 @@ body {
   font-family: "roboto", sans-serif;
 }
 
+.navbar {
+  height: 150px;
+  margin-top: -27rem;
+}
+
+ul {
+  display: inline-flex;
+  word-spacing: 50px;
+}
+
 .music-player {
   width: 100%;
   height: 400px;
