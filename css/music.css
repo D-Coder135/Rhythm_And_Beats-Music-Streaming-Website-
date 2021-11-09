@@ -12,6 +12,11 @@ body {
 
 nav {
   font-family: "Ubuntu";
+  opacity: 0.5;
+}
+
+nav:hover{
+  opacity: 1;
 }
 
 nav ul {
