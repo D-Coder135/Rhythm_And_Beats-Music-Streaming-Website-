@@ -6,7 +6,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: darkgray;
+  background-color: black;
 }
 
 #box {
@@ -80,10 +80,16 @@ h1 {
   font-size: 11px;
   display: block;
   text-transform: uppercase;
+  border-radius: 10px;
+}
+
+#left-box li:hover {
+  padding: 5px;
+  border: 1px solid #66bfbf;
 }
 
 #left-box a:hover {
-  color: red;
+  color: #66bfbf;
   background-attachment: fixed;
 }
 
@@ -147,8 +153,41 @@ a:active {
   }
 }
 
-@media only screen and (min-width: 550px) {
+@media only screen and (max-width: 1200px) {
   #left-box {
     min-width: 200px;
   }
+
+  #main-container {
+    display: flex;
+    flex-direction: column;
+    margin: 200px;
+  }
+}
+
+#main-container {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  margin-top: 5rem;
+  justify-content: space-evenly;
+}
+
+.div1 {
+  height: 35vh;
+  width: 15vw;
+}
+
+.div1 img:hover {
+  border-radius: 100%;
+  transition: border-radius 1s ease;
+}
+
+.div1 img {
+  height: 100%;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.div1 button {
 }
