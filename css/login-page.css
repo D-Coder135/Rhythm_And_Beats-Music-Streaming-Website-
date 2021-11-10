@@ -99,13 +99,31 @@ main{
     color: white;
     font-size: 0.9rem;
 }
+.sign-in-button{
+    opacity: 0.7;
+    width: 70%;
+    background-color: hotpink;
+    border-radius: 6px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size:20px;
+    margin: auto;
+    margin-top: 10%;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .sign-in-button:hover {
+      background-color: #b983ff;
+      opacity: 1;
+      border-radius: 25px;
+      border: 3px solid #66bfbf;
+      transition: border 0.8s ease;
+      transition: border-radius 2s ease;
+    }
 
-#btn{
-    border-radius: 5px;
-    padding: 7px;
-    width: 80%;
-    background-color: #ED50F1;
-}
 
 #forgot-pass{
     text-decoration: none;
