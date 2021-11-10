@@ -85,6 +85,10 @@ main {
   padding-right: 5px;
 }
 
+.form-classes input:hover{
+  padding: 3px;
+}
+
 button {
   opacity: 0.7;
   background-color: violet;
