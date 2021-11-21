@@ -11,7 +11,7 @@ let songItems = Array.from(document.getElementsByClassName("songItem"));
 
 let songs = [
   {
-    songName: "Rythm - Beats and Rythm Official",
+    songName: "Rhythm - Rhythm And Beats Official",
     filePath: "../songs/1.mp3",
     coverPath: "../images/1.jpg",
   },
