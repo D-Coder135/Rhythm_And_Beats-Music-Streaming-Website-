@@ -26,7 +26,7 @@ let songs = [
     coverPath: "../images/3.jpg",
   },
   {
-    songName: "Roar - Kary Perry",
+    songName: "Roar - Katy Perry",
     filePath: "../songs/4.mp3",
     coverPath: "../images/4.jpg",
   },
