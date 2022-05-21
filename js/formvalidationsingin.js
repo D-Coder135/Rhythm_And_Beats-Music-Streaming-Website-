@@ -17,9 +17,6 @@ function clearErrors() {
     var name = document.forms["myForm"]["fname"].value;
     var email = document.forms["myForm"]["femail"].value;
     var password = document.forms["myForm"]["fpass"].value;
-    var cpassword = document.forms["myForm"]["fcpass"].value;
-    var phone = document.forms["myForm"]["fphone"].value;
-    
 
     if (name.length < 5) {
       seterror("name", "*Name shoud be greater than 5 character");
@@ -30,20 +27,15 @@ function clearErrors() {
       seterror("email", "*Email length too long for input Email");
       returnval = false;
     }
+    
+    if(email.length < 11){
+        seterror("email","*Email should in abc@gmail.com format")
+    }
 
     if (password.length < 9) {
       seterror("password", "*Password should be atleast 9 character long");
       returnval = false;
     }
-    if (cpassword != password) {
-      seterror("cpassword", "*Should be match with previoud Password Attribute");
-      returnval = false;
-    }
-    if (phone.length != 10) {
-      seterror("phone", "*phone number should be at least length 10");
-      returnval = false;
-    }
-
     
     return returnval;
   }

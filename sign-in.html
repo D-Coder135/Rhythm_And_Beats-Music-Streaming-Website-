@@ -5,53 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/login-page.css" />
-    <link rel="icon" href="images/favicon.ico">
+    <link rel="icon" href="images/favicon.ico" />
     <title>Login-Page</title>
   </head>
   <body>
     <div id="container">
-    <header>
-      <nav>
-        <ul>
-          <li>
-            <a href="Contact-us.html">Contact-Us</a>
-          </li>
-          <li>
-            <a href="sign-up.html">Sign-Up</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <div id="form-content">
-        <form>
+      <header>
+        <nav>
+          <ul>
+            <li>
+              <a href="Contact-us.html">Contact-Us</a>
+            </li>
+            <li>
+              <a href="sign-up.html">Sign-up</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <div id="form-content">
+          <div id="signup-heading">
             <h1>Sign-in</h1>
-          <div class="user-id">
-            <label class="color-changer" for="username">Username</label>
-            <input type="text" id="username" placeholder="Ex: hemantmudgal" required />
           </div>
+          <form
+            action="/myaction.php"
+            name="myForm"
+            onsubmit="return validateForm()"
+            method="post"
+          >
+            <div class="form-classes" id="name">
+              <label for="user-name">Name :</label>
+              <input
+                type="text"
+                name="fname"
+                id="userName"
+                placeholder="Ex:hemantmudgal"
+                required
+              />
+              <span class="formerror"> </span>
+            </div>
 
-          <div>
-            <label  class="form-content color-changer" for="password">password: </label>
-            <input type="password" id="password" placeholder="1234@abcd" />
-          </div>
+            <div class="form-classes" id="email">
+              <label for="user-name">Email :</label>
+              <input
+                type="text"
+                name="femail"
+                id="userEmail"
+                placeholder="Ex:abc@gmail.com"
+                required
+              />
+              <span class="formerror"> </span>
+            </div>
 
-          <input id="check" type="checkbox" checked>
-          <p>Terms & Condition</p>
-
-          <div>
-
-            <a href="index.html" class="sign-in-button">Sign-in</a>
-
-          </div>              
-
-          <div>
-              
-          <a id="forgot-pass" href="https://www.google.com" target="_blank">forgot password</a>
-          </div>
-        </form>
-      </div>
-    </main>
-  </div>
+            <div class="form-classes" id="password">
+              <label for="password">Password :</label>&nbsp&nbsp
+              <input
+                type="password"
+                name="fpass"
+                id="password"
+                placeholder="1234@abcd"
+                required
+              />
+              <span class="formerror"> </span>
+            </div>
+            <div class="form-classes">
+              <input type="submit" class="sign-up-button" value="Signup" />
+            </div>
+          </form>
+        </div>
+      </main>
+    </div>
+    <script src="js/formvalidationsingin.js"></script>
   </body>
 </html>
