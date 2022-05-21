@@ -28,38 +28,68 @@
           <div id="signup-heading">
             <h1>Sign-Up</h1>
           </div>
-          <form action="home.html" method="post">
-            <div class="form-classes">
-              <label for="user-name">User-Name :</label>
-              <input type="text" id="user-name" placeholder="Ex:hemantmudgal" />
+          <form
+            action="/myaction.php"
+            name="myForm"
+            onsubmit="return validateForm()"
+            method="post"
+          >
+            <div class="form-classes" id="name">
+              <label for="user-name">Name :</label>
+              <input
+                type="text"
+                name="fname"
+                id="userName"
+                placeholder="Ex:hemantmudgal"
+                required
+              />
+              <span class="formerror"> </span>
             </div>
 
-            <div class="form-classes">
+            <div class="form-classes" id="email">
+              <label for="user-name">Email :</label>
+              <input
+                type="text"
+                name="femail"
+                id="userEmail"
+                placeholder="Ex:abc@gmail.com"
+                required
+              />
+              <span class="formerror"> </span>
+            </div>
+
+            <div class="form-classes" id="password">
               <label for="password">Password :</label>&nbsp&nbsp
-              <input type="password" id="password" placeholder="1234@abcd" />
+              <input
+                type="password"
+                name="fpass"
+                id="password"
+                placeholder="1234@abcd"
+                required
+              />
+              <span class="formerror"> </span>
             </div>
 
-            <div class="form-classes">
-              <label for="confrm-password">Confirm-Password : </label>
+            <div class="form-classes" id="cpassword">
+              <label for="confrm-password">Verification : </label>
               <input
                 type="password"
                 id="confrm-password"
+                name="fcpass"
                 placeholder="same-as-password"
+                required
               />
+              <span class="formerror"> </span>
             </div>
 
             <div class="form-classes">
-              <input type="checkbox" id="checkbox" />
-              <p>Term & Condition</p>
-              <a href="sign-in.html" class="sign-up-button">
-                
-                Sign-up
-            </a>
+              <input type="submit" class="sign-up-button" value="Signup" />
             </div>
-
           </form>
         </div>
       </main>
     </div>
   </body>
+
+  <script src="js/formvalidationsignup.js"></script>
 </html>

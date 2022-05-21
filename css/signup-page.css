@@ -54,10 +54,24 @@ main {
   height: 90vh;
   width: 30vw;
   border-radius: 10px;
-  border: 2px solid white;
+  border: 1px dotted white;
   margin: auto;
   position: relative;
   top: 50px;
+}
+
+#form-content:hover{
+  border: 3px solid #D074CF;
+  transition: border 0.3s ease;
+}
+
+.form-classes span{
+  display: block;
+  text-align: center;
+  color: red;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  margin-top: 10px;
 }
 
 #signup-heading {
@@ -82,42 +96,80 @@ main {
 .form-classes input {
   border-radius: 5px;
   height: 23x;
-  padding-right: 5px;
+  width: 13rem;
+}
+
+.form-classes input{
+  padding: 6px;
+  text-align: center;
 }
 
 .form-classes input:hover{
-  padding: 3px;
+  border-radius: 20px;
+  border: 2px solid #D074CF;
+  transition: border-radius 1s ease;
 }
 
-button {
-  opacity: 0.7;
-  background-color: violet;
-}
-
-.sign-up-button {
-  opacity: 0.7;
+.form-classes .sign-up-button {
+  opacity: 0.9;
+  text-align: center;
+  height: 40px;
   width: 80%;
-  background-color: hotpink;
-  border-radius: 6px;
+  border-color: hotpink;
+  background-color: #77bfbf;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
   color: white;
   padding: 5px 10px;
   text-align: center;
   display: inline-block;
   font-size: 20px;
   margin: auto;
-  margin-top: 10%;
+  margin-top: 5%;
   cursor: pointer;
   text-decoration: none;
 }
 
 .sign-up-button:hover {
-  background-color: #b983ff;
+  background-color: hotpink;
   opacity: 1;
   border-radius: 20px;
   border: 3px solid #66bfbf;
-  transition: border 1s ease;
-  transition: border-radius 2s ease;
+  transition: border-radius 0.8s ease;
 }
+
+
+@media only screen and (max-width: 1154px){
+
+  #form-content{
+    width: 50vw;
+  }
+
+  nav ul{
+    position: absolute;
+    top: 10px;
+    right: 40vw;
+
+  }
+} 
+@media only screen and (max-width: 471px){
+
+  body{
+    overflow: hidden;
+  }
+
+  #form-content input{
+   margin-right: 10px;
+  }
+
+  nav ul{
+    position: absolute;
+    top: 10px;
+    right: 40vw;
+
+  }
+} 
+
 
 @media only screen and (max-width: 855px){
 
@@ -130,5 +182,8 @@ button {
     top: 10px;
     right: 40vw;
 
+  }
+  .form-classes input{
+    margin-top: 5px;
   }
 } 
