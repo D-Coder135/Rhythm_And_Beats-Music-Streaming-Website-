@@ -2,7 +2,7 @@ console.log("Welcome to Beats and Rythm");
 
 //Initialize the variables
 let songIndex = 0;
-let audioElement = new Audio("../songs/1.mp3");
+let audioElement = new Audio("songs/1.mp3");
 let masterPlay = document.getElementById("masterPlay");
 let myProgressBar = document.getElementById("myProgressBar");
 let gif = document.getElementById("gif");
@@ -13,42 +13,42 @@ let songs = [
   {
     songName: "Rhythm - Rhythm And Beats Official",
     filePath: "../songs/1.mp3",
-    coverPath: "../images/1.jpg",
+    coverPath: "images/1.jpg",
   },
   {
     songName: "Imagine Dragons - Thunder",
     filePath: "../songs/2.mp3",
-    coverPath: "../images/2.jpg",
+    coverPath: "images/3.jpg",
   },
   {
     songName: "Lean On - Major Lazer & Dj Shake ft. Mo",
     filePath: "../songs/3.mp3",
-    coverPath: "../images/3.jpg",
+    coverPath: "images/4.jpg",
   },
   {
     songName: "Roar - Katy Perry",
     filePath: "../songs/4.mp3",
-    coverPath: "../images/4.jpg",
+    coverPath: "images/5.jpg",
   },
   {
     songName: "Let Me Love You - ft. DJ Snake ",
     filePath: "../songs/5.mp3",
-    coverPath: "../images/5.jpg",
+    coverPath: "images/6.jpg",
   },
   {
     songName: "DJ Snake - Magenta Riddim",
     filePath: "../songs/6.mp3",
-    coverPath: "../images/6.jpg",
+    coverPath: "images/7.jpg",
   },
   {
     songName: "DJ Snake - Taki Taki ft. Selena Gomez, ...",
     filePath: "../songs/7.mp3",
-    coverPath: "../images/7.jpg",
+    coverPath: "images/8.jpg",
   },
   {
     songName: "Ed Sheeran - Shape of You",
     filePath: "../songs/8.mp3",
-    coverPath: "../images/8.jpg",
+    coverPath: "images/9.jpg",
   },
 ];
 
@@ -62,7 +62,7 @@ songItems.forEach((element, i) => {
 //Update play/pause click
 masterPlay.addEventListener("click", () => {
   if (audioElement.paused || audioElement.currentTime <= 0) {
-    audioElement.play();
+    audioElement.play("../songs/1.mp3");
     masterPlay.classList.remove("fa-play-circle");
     masterPlay.classList.add("fa-pause-circle");
     gif.style.opacity = 1;

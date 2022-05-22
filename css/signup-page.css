@@ -3,13 +3,20 @@
   margin: 0;
 }
 
+body{
+  overflow-y: hidden;
+}
+
 /* Cotainer-div */
 #container {
   width: 100vw;
-  height: 100vh;
+  height: 110vh;
   background-image: url("../images/marcela-laskoski-YrtFlrLo2DQ-unsplash.jpg");
   background-position: center;
   background-size: cover;
+  background-attachment: scroll;
+
+  background-repeat: no-repeat;
   opacity: 0.9;
 }
 
@@ -60,12 +67,12 @@ main {
   top: 50px;
 }
 
-#form-content:hover{
+#form-content:hover {
   border: 3px solid #D074CF;
   transition: border 0.3s ease;
 }
 
-.form-classes span{
+.form-classes span {
   display: block;
   text-align: center;
   color: red;
@@ -99,12 +106,12 @@ main {
   width: 13rem;
 }
 
-.form-classes input{
+.form-classes input {
   padding: 6px;
   text-align: center;
 }
 
-.form-classes input:hover{
+.form-classes input:hover {
   border-radius: 20px;
   border: 2px solid #D074CF;
   transition: border-radius 1s ease;
@@ -139,51 +146,53 @@ main {
 }
 
 
-@media only screen and (max-width: 1154px){
+@media only screen and (max-width: 1154px) {
 
-  #form-content{
+  #form-content {
     width: 50vw;
   }
 
-  nav ul{
+  nav ul {
     position: absolute;
     top: 10px;
     right: 40vw;
 
   }
-} 
-@media only screen and (max-width: 471px){
+}
 
-  body{
+@media only screen and (max-width: 471px) {
+
+  body {
     overflow: hidden;
   }
 
-  #form-content input{
-   margin-right: 10px;
+  #form-content input {
+    margin-right: 10px;
   }
 
-  nav ul{
+  nav ul {
     position: absolute;
     top: 10px;
     right: 40vw;
 
   }
-} 
+}
 
 
-@media only screen and (max-width: 855px){
+@media only screen and (max-width: 855px) {
 
-  #form-content{
+  #form-content {
     width: 70vw;
   }
 
-  nav ul{
+  nav ul {
     position: absolute;
     top: 10px;
     right: 40vw;
 
   }
-  .form-classes input{
+
+  .form-classes input {
     margin-top: 5px;
   }
-} 
+}
